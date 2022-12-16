@@ -1,8 +1,9 @@
 # REMEMBER YOU ARE USING PYTHON3!!!
-from openpyxl import load_workbook, Workbook
+from openpyxl import load_workbook
 import datetime
 
 # Reconfigure all this to be in a Class structure. (maybe?)
+
 
 # Generating dynamic work sheet title.
 def work_sheet_title():
@@ -26,11 +27,12 @@ def work_sheet_header():
     # Header date numberings.
     from_range = int(from_date_form[3:5])
     to_range = int(to_date[3:5])
-    header_dates = [ date for date in range(from_range, to_range + 1)]
+    header_dates = [date for date in range(from_range, to_range + 1)]
     header_date_column = ['A', 'E', 'I', 'M', 'Q']
     header_date_row = ['8', '19', '27', '35', '43']
     header_cells = [[col + row for row in header_date_row] for col in header_date_column]
-    return (log_heading, header_cells, header_dates)
+    return log_heading, header_cells, header_dates
+
 
 # Creating and writing to the work sheet.
 def generate_work_sheet():
