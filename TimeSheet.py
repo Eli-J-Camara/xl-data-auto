@@ -36,9 +36,7 @@ class TimeSheet:
         ws_name = f'Weekly Time Reporting {current_month[0:3]} {day}.'
         return ws_name
 
-
     def generate_work_sheet(self):
-        """ Creates and writes to the work sheet"""
         excel_template = 'TimeReportLog(Oct2022).xlsx'
         wb = load_workbook(filename=excel_template)
         template_ws = wb['Weekly Time Reporting Template']
@@ -46,11 +44,10 @@ class TimeSheet:
         new_ws.title = self.title
         new_ws['I1'] = self.header[0]
 
-        cells_and_dates = self.header
-        for cells in cells_and_dates[1]:
+        for cells in self.header[1]:
             for i in range(5):
-                index = cells_and_dates[1].index(cells)
-                new_ws[cells[i]] = cells_and_dates[2][index]
+                index = self.header[1].index(cells)
+                new_ws[cells[i]] = self.header[2][index]
 
         # Python doesn't like the file name to more than 31 characters!
         wb.save('TimeReportLog(Oct2022).xlsx')
