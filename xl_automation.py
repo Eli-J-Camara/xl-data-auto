@@ -6,7 +6,8 @@ import datetime
 
 # Generating dynamic work sheet title.
 def work_sheet_title():
-    months = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December'}
+    months = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 8: 'August',
+              9: 'September', 10: 'October', 11: 'November', 12: 'December'}
     month_num = datetime.datetime.today().strftime('%m')
     current_month = months[int(month_num)]
     day = datetime.datetime.today().strftime('%d')
@@ -20,7 +21,7 @@ def work_sheet_header():
     to_date = datetime.datetime.today().strftime('%m/%d')
     from_date = datetime.datetime.today() - datetime.timedelta(days=4)
     from_date_form = from_date.strftime('%m/%d')
-    log_heading = f'Time Reporting Summery ({from_date_form} - {to_date}):'
+    log_heading = f'Time Reporting Summary ({from_date_form} - {to_date}):'
 
     # Header date numberings.
     from_range = int(from_date_form[3:5])
