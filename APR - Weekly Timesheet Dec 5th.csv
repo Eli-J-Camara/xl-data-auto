@@ -1,0 +1,138 @@
+Ace Party Rental,"","","","","","","","","","","","","","","","","",""
+Payroll Period,12/05/2022 To 12/09/2022,"","","","","","","","","","","","","","","","",""
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Aaron White,December 5 2022,8:54am,December 5 2022,3:58pm,"","","","","",Employee,"",7.07,7.07,0.00,$0.00,"","",""
+Aaron White,December 6 2022,8:28am,December 6 2022,3:57pm,"","","","","",Employee,"",7.48,7.48,0.00,$0.00,"","",""
+Aaron White,December 7 2022,9:34am,December 7 2022,1:07pm,"","","","","",Employee,"",3.55,3.55,0.00,$0.00,"","",""
+Aaron White,December 9 2022,9:05am,December 9 2022,10:27am,"","","","","",Employee,"",1.37,1.37,0.00,$0.00,"","",""
+Totals for Aaron White,"","","","","","","","","","","",19.47,19.47,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Anya Blaylock,December 5 2022,10:30am,December 5 2022,4:30pm,"","","","","",Employee,$0.00,6.00,6.00,0.00,$0.00,"","",""
+Anya Blaylock,December 6 2022,9:00am,December 6 2022,7:50pm,"","","","","",Employee,$0.00,10.83,10.83,0.00,$0.00,"","",""
+Anya Blaylock,December 7 2022,9:03am,December 7 2022,6:27pm,"","","","","",Employee,$0.00,9.40,9.40,0.00,$0.00,"","",""
+Anya Blaylock,December 8 2022,10:05am,December 8 2022,4:28pm,"","","","","",Employee,$0.00,6.38,6.38,0.00,$0.00,"","",""
+Anya Blaylock,December 9 2022,9:00am,December 9 2022,3:59pm,"","","","","",Employee,$0.00,6.98,6.98,0.00,$0.00,"","",""
+Totals for Anya Blaylock,"","","","","","","","","","","",39.59,39.59,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Debra Hanke,December 5 2022,8:29am,December 5 2022,10:19am,"","","","","","",$0.00,1.83,1.83,0.00,$0.00,"","",""
+Debra Hanke,December 5 2022,10:31am,December 5 2022,5:01pm,"","","","","","",$0.00,6.50,6.50,0.00,$0.00,"","",""
+Debra Hanke,December 6 2022,8:34am,December 6 2022,3:57pm,"","","","","","",$0.00,7.38,7.38,0.00,$0.00,"","",""
+Debra Hanke,December 7 2022,9:20am,December 7 2022,4:02pm,"","","","","","",$0.00,6.70,6.70,0.00,$0.00,"","",""
+Debra Hanke,December 8 2022,9:39am,December 8 2022,4:25pm,"","","","","","",$0.00,6.77,6.77,0.00,$0.00,"","",""
+Totals for Debra Hanke,"","","","","","","","","","","",29.18,29.18,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Gurnur Kaur,December 5 2022,9:59am,December 5 2022,5:30pm,"","","","","",Employee,"",7.52,7.52,0.00,$0.00,"","",""
+Gurnur Kaur,December 6 2022,9:16am,December 6 2022,5:01pm,"","","","","",Employee,"",7.75,7.75,0.00,$0.00,"","",""
+Gurnur Kaur,December 7 2022,9:03am,December 7 2022,3:24pm,"","","","","",Employee,"",6.35,6.35,0.00,$0.00,"","",""
+Gurnur Kaur,December 8 2022,9:06am,December 8 2022,5:15pm,"","","","","",Employee,"",8.15,8.15,0.00,$0.00,"","",""
+Gurnur Kaur,December 9 2022,9:00am,December 9 2022,5:00pm,"","","","","",Employee,"",8.00,8.00,0.00,$0.00,"","",""
+Totals for Gurnur Kaur,"","","","","","","","","","","",37.77,37.77,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Jacob Birge,December 6 2022,8:13am,December 6 2022,4:02pm,"","","","","",Employee,$0.00,7.82,7.82,0.00,$0.00,"","",""
+Jacob Birge,December 7 2022,9:02am,December 7 2022,5:13pm,"","","","","",Employee,$0.00,8.18,8.18,0.00,$0.00,"","",""
+Jacob Birge,December 8 2022,10:09am,December 8 2022,12:22pm,"","","","","",Employee,$0.00,2.22,2.22,0.00,$0.00,"","",""
+Jacob Birge,December 8 2022,12:49pm,December 8 2022,4:18pm,"","","","","",Employee,$0.00,3.48,3.48,0.00,$0.00,"","",""
+Jacob Birge,December 9 2022,9:33am,December 9 2022,3:18pm,"","","","","",Employee,$0.00,5.75,5.75,0.00,$0.00,"","",""
+Totals for Jacob Birge,"","","","","","","","","","","",27.45,27.45,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Josh Shafer,December 6 2022,8:03am,December 6 2022,4:03pm,"","","","","","","",8.00,8.00,0.00,$0.00,"","",""
+Josh Shafer,December 7 2022,9:00am,December 7 2022,5:14pm,"","","","","","","",8.23,8.23,0.00,$0.00,"","",""
+Josh Shafer,December 8 2022,8:59am,December 8 2022,4:19pm,"","","","","","","",7.33,7.33,0.00,$0.00,"","",""
+Josh Shafer,December 9 2022,9:01am,December 9 2022,3:08pm,"","","","","","","",6.12,6.12,0.00,$0.00,"","",""
+Totals for Josh Shafer,"","","","","","","","","","","",29.68,29.68,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Josh Boss,December 5 2022,9:08am,December 5 2022,4:17pm,"","","","","",Employee,"",7.15,7.15,0.00,$0.00,"","",""
+Josh Boss,December 6 2022,9:11am,December 6 2022,2:38pm,"","","","","",Employee,"",5.45,5.45,0.00,$0.00,"","",""
+Josh Boss,December 6 2022,5:55pm,December 6 2022,7:51pm,"","","","","",Employee,"",1.93,1.93,0.00,$0.00,"","",""
+Josh Boss,December 8 2022,9:38am,December 8 2022,3:44pm,"","","","","",Employee,"",6.10,6.10,0.00,$0.00,"","",""
+Josh Boss,December 9 2022,9:47am,December 9 2022,3:08pm,"","","","","",Employee,"",5.35,5.35,0.00,$0.00,"","",""
+Totals for Josh Boss,"","","","","","","","","","","",25.98,25.98,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Josh Monday,December 5 2022,8:56am,December 5 2022,2:11pm,"","","","","",Employee,"",5.25,5.25,0.00,$0.00,"","",""
+Josh Monday,December 6 2022,8:05am,December 6 2022,4:20pm,"","","","","",Employee,"",8.25,8.25,0.00,$0.00,"","",""
+Josh Monday,December 7 2022,9:06am,December 7 2022,2:58pm,"","","","","",Employee,"",5.87,5.87,0.00,$0.00,"","",""
+Josh Monday,December 8 2022,9:15am,December 8 2022,4:05pm,"","","","","",Employee,"",6.83,6.83,0.00,$0.00,"","",""
+Josh Monday,December 9 2022,9:15am,December 9 2022,3:27pm,"","","","","",Employee,"",6.20,6.20,0.00,$0.00,"","",""
+Totals for Josh Monday,"","","","","","","","","","","",32.40,32.40,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Juliana Sanchez,December 8 2022,9:11am,December 8 2022,4:04pm,"","","","","",Employee,"",6.88,6.88,0.00,$0.00,"","",""
+Juliana Sanchez,December 9 2022,9:09am,December 9 2022,3:27pm,"","","","","",Employee,"",6.30,6.30,0.00,$0.00,"","",""
+Totals for Juliana Sanchez,"","","","","","","","","","","",13.18,13.18,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Kendra Maynard,December 5 2022,8:58am,December 5 2022,7:35pm,"","","","","",Employee,$0.00,10.62,10.62,0.00,$0.00,"","",""
+Kendra Maynard,December 6 2022,8:57am,December 6 2022,3:05pm,"","","","","",Employee,$0.00,6.13,6.13,0.00,$0.00,"","",""
+Kendra Maynard,December 7 2022,9:00am,December 7 2022,5:01pm,"","","","","",Employee,$0.00,8.02,8.02,0.00,$0.00,"","",""
+Kendra Maynard,December 8 2022,8:52am,December 8 2022,3:12pm,"","","","","",Employee,$0.00,6.33,6.33,0.00,$0.00,"","",""
+Kendra Maynard,December 9 2022,8:54am,December 9 2022,5:35pm,"","","","","",Employee,$0.00,8.68,8.68,0.00,$0.00,"","",""
+Totals for Kendra Maynard,"","","","","","","","","","","",39.78,39.78,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Leroy Engle,December 5 2022,8:30am,December 5 2022,7:35pm,"","","","","","",$0.00,11.08,11.08,0.00,$0.00,"","",""
+Leroy Engle,December 7 2022,8:47am,December 7 2022,4:49pm,"","","","","","",$0.00,8.03,8.03,0.00,$0.00,"","",""
+Leroy Engle,December 8 2022,8:56am,December 8 2022,5:05pm,"","","","","","",$0.00,8.15,8.15,0.00,$0.00,"","",""
+Leroy Engle,December 9 2022,8:52am,December 9 2022,2:01pm,"","","","","","",$0.00,5.15,5.15,0.00,$0.00,"","",""
+Totals for Leroy Engle,"","","","","","","","","","","",32.41,32.41,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Mariela Sanchez,December 8 2022,9:03am,December 8 2022,4:04pm,"","","","","",Employee,"",7.02,7.02,0.00,$0.00,"","",""
+Mariela Sanchez,December 9 2022,8:54am,December 9 2022,3:27pm,"","","","","",Employee,"",6.55,6.55,0.00,$0.00,"","",""
+Totals for Mariela Sanchez,"","","","","","","","","","","",13.57,13.57,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Marleigha Clements,December 5 2022,8:32am,December 5 2022,5:39pm,"","","","","","",$0.00,9.12,9.12,0.00,$0.00,"","",""
+Marleigha Clements,December 9 2022,8:46am,December 9 2022,10:42am,"","","","","","",$0.00,1.93,1.93,0.00,$0.00,"","",""
+Totals for Marleigha Clements,"","","","","","","","","","","",11.05,11.05,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Patrick Stafford,December 6 2022,9:36am,December 6 2022,12:16pm,"","","","","",Assistant Manager,"",2.67,2.67,0.00,$0.00,"","",""
+Patrick Stafford,December 6 2022,1:06pm,December 6 2022,3:53pm,"","","","","",Assistant Manager,"",2.78,2.78,0.00,$0.00,"","",""
+Patrick Stafford,December 7 2022,8:47am,December 7 2022,2:59pm,"","","","","",Assistant Manager,"",6.20,6.20,0.00,$0.00,"","",""
+Patrick Stafford,December 8 2022,10:04am,December 8 2022,2:48pm,"","","","","",Assistant Manager,"",4.73,4.73,0.00,$0.00,"","",""
+Patrick Stafford,December 9 2022,10:24am,December 9 2022,2:56pm,"","","","","",Assistant Manager,"",4.53,4.53,0.00,$0.00,"","",""
+Totals for Patrick Stafford,"","","","","","","","","","","",20.91,20.91,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Ryan Hinderliter,December 5 2022,7:45am,December 5 2022,5:00pm,"","","","","",Assistant Manager,"",9.25,9.25,0.00,$0.00,"","",""
+Ryan Hinderliter,December 6 2022,7:44am,December 6 2022,5:00pm,"","","","","",Assistant Manager,"",9.27,9.27,0.00,$0.00,"","",""
+Ryan Hinderliter,December 7 2022,7:45am,December 7 2022,5:00pm,"","","","","",Assistant Manager,"",9.25,9.25,0.00,$0.00,"","",""
+Ryan Hinderliter,December 8 2022,7:25am,December 8 2022,4:45pm,"","","","","",Assistant Manager,"",9.33,9.33,0.00,$0.00,"","",""
+Ryan Hinderliter,December 9 2022,7:30am,December 9 2022,9:09am,"","","","","",Assistant Manager,"",1.65,1.65,0.00,$0.00,"","",""
+Ryan Hinderliter,December 9 2022,9:09am,December 9 2022,4:18pm,"","","","","",Assistant Manager,"",7.15,1.25,5.90,$0.00,"","",""
+Totals for Ryan Hinderliter,"","","","","","","","","","","",45.90,40.00,5.90,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Name,Clock in date,Clock in time,Clock out date,Clock out time,Break start,Break end,Break length,Break type,Payroll ID,Role,Wage,Total Paid,Regular,Est. Overtime,Est. Wages,No Show Reason,Employee Note,Manager Note
+Sherry McCabe,December 6 2022,8:56am,December 6 2022,3:04pm,"","","","","",Employee,"",6.13,6.13,0.00,$0.00,"","",""
+Sherry McCabe,December 7 2022,8:59am,December 7 2022,3:01pm,"","","","","",Employee,"",6.03,6.03,0.00,$0.00,"","",""
+Sherry McCabe,December 8 2022,8:57am,December 8 2022,3:00pm,"","","","","",Employee,"",6.05,6.05,0.00,$0.00,"","",""
+Sherry McCabe,December 8 2022,4:11pm,December 8 2022,6:18pm,"","","","","",Employee,"",2.12,2.12,0.00,$0.00,"","",""
+Sherry McCabe,December 9 2022,8:57am,December 9 2022,3:02pm,"","","","","",Employee,"",6.08,6.08,0.00,$0.00,"","",""
+Sherry McCabe,December 9 2022,3:33pm,December 9 2022,5:35pm,"","","","","",Employee,"",2.03,2.03,0.00,$0.00,"","",""
+Totals for Sherry McCabe,"","","","","","","","","","","",28.44,28.44,0.00,$0.00,"","",""
+-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+"","","","","","","","","","","","","","","","","","",""
+Totals for this Pay Period,"","","","","","","","","","","",446.76,440.86,5.90,$0.00,"","",""

@@ -50,4 +50,4 @@ class TimeSheet:
                 new_ws[cells[i]] = self.header[2][index]
 
         # Python doesn't like the file name to more than 31 characters!
-        wb.save('TimeReportLog(Oct2022).xlsx')
+        wb.save(f'../{excel_template}')
