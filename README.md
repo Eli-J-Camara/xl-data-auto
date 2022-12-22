@@ -6,4 +6,4 @@ data for the Ace Party Rental employees. Once we've obtained this data, we will 
 file and save it in a folder that is easily accessible to Zach.
 
 ## Getting Started
-run pip install openpyxl and pip install pandas
+run pip install openpyxl
