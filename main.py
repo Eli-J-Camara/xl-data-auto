@@ -5,8 +5,8 @@ from scripts.utils.csv_to_xl import csv_to_xl
 
 
 if __name__ == '__main__':
-    # timeSheet = TimeSheet()
-    # timeSheet.generate_work_sheet()
+    timeSheet = TimeSheet()
+    timeSheet.generate_work_sheet()
     csv_title = 'apr-weekly-timesheet'
     for file in os.listdir():
         if csv_title in file:
