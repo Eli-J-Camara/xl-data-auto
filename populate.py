@@ -26,5 +26,4 @@ def get_punch_times(column, am_pm) -> list:
                 })
     return punch_times
 
-
-# TODO: populate the template with early clock-in data
+    
