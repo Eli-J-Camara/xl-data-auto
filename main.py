@@ -12,11 +12,6 @@ if __name__ == '__main__':
     timeSheet.populate_data()
     
 
-
-# We should find and alternative solution to this. I just did it for now in order
-# to write the logic for the funciton.
-
-# if __name__ == '__main__':
     
 # year = datetime.datetime.today().strftime('%Y')
 ## This will be used for an edge case conditional that will create a new file after each Year.
