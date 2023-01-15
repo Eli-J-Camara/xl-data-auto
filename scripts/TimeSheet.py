@@ -1,7 +1,6 @@
 from openpyxl import load_workbook
-from populate import get_punch_times
 import datetime
-
+from populate import get_punch_times
 
 def ws_header():
     # I've changed these dates to match the date range of the csv file. Also make sure that the date format does not

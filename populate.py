@@ -1,10 +1,9 @@
 from openpyxl import load_workbook
-
 weekly_timesheet = 'apr-weekly-timesheet-dec-5th.xlsx'
-ws = load_workbook(weekly_timesheet)['Sheet']
 
 
 def get_punch_times(column, am_pm) -> list:
+    ws = load_workbook(weekly_timesheet)['Sheet']
     """Returns a list of dicts with early clock in or late clock out names, dates and times. Example uses:
     get_punch_times('E', 'pm'), get_punch_times('C', 'am')"""
     punch_times = []
