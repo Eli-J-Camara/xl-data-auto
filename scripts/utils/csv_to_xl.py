@@ -7,7 +7,7 @@ import openpyxl
 
 def csv_to_xl(csv_file, excel_file) -> bool:
     # Avoids UnicodeDecodeError
-    for file in os.listdir('../../'):
+    for file in os.listdir():
         if file == excel_file:
             return False
     csv_data = []
