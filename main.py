@@ -6,11 +6,11 @@ if __name__ == '__main__':
     csv_title = 'apr-weekly-timesheet'
     for file in os.listdir():
         if csv_title in file:
-            csv_to_xl(file, file[0:len(file) - 4] + '.xlsx')
-    timeSheet = TimeSheet()
-    timeSheet.generate_work_sheet()
-    timeSheet.populate_data()
-    
+            if csv_to_xl(file, file[0:len(file) - 4] + '.xlsx'):
+                timeSheet = TimeSheet()
+                timeSheet.generate_work_sheet()
+                timeSheet.populate_data()
+                break
 
     
 # year = datetime.datetime.today().strftime('%Y')
