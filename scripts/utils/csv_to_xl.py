@@ -5,11 +5,11 @@ import os
 import openpyxl
 
 
-def csv_to_xl(csv_file, excel_file):
+def csv_to_xl(csv_file, excel_file) -> bool:
     # Avoids UnicodeDecodeError
-    for file in os.listdir():
+    for file in os.listdir('../../'):
         if file == excel_file:
-            return
+            return False
     csv_data = []
     with open(csv_file) as file_obj:
         reader = csv.reader(file_obj)
@@ -21,3 +21,4 @@ def csv_to_xl(csv_file, excel_file):
     for row in csv_data:
         sheet.append(row)
     workbook.save(excel_file)
+    return True
