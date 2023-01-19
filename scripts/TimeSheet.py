@@ -2,6 +2,7 @@ from openpyxl import load_workbook
 import datetime
 from populate import get_punch_times
 
+
 def ws_header():
     # I've changed these dates to match the date range of the csv file. Also make sure that the date format does not
     # change on the csv file.
@@ -20,6 +21,27 @@ def ws_header():
     header_date_row = ['8', '19', '27', '35', '43']
     header_cells = [[col + row for row in header_date_row] for col in header_date_column]
     return log_heading, header_cells, header_dates
+
+
+def populate_helper(new_ws, row: str, punch_times):
+    for i in range(len(new_ws[row])):
+        cell = new_ws[row][i]
+        new_row = int(row) + 1
+        value = cell.value
+        if not bool(value):
+            continue
+        elif type(value) == int:
+            coordinate = cell.coordinate
+            for info in punch_times:
+                date = int(info['date'][-7:-5])
+                if value == date:
+                    name_cell = coordinate[0] + str(new_row)
+                    new_ws[name_cell] = info['name']
+                    name_time_columns = {'A': 'C', 'E': 'G', 'I': 'K', 'M': 'O', 'Q': 'S'}
+                    time_cell = name_time_columns[coordinate[0]] + str(new_row)
+                    new_ws[time_cell] = info['clock-out'][0:-2]
+                    new_row += 1
+
 
 class TimeSheet:
 
@@ -56,42 +78,8 @@ class TimeSheet:
     def populate_data(self):
         clock_in = get_punch_times('C', 'am')
         clock_out = get_punch_times('E', 'pm')
-        print(clock_out)
         wb = load_workbook(filename=self.excel_template)
         new_ws = wb[self.title]
-        name_time_columns = {'A': 'C', 'E': 'G', 'I': 'K', 'M': 'O', 'Q': 'S'}
-        # Sorry, this code is not very pythonic, but it gets the job done. I think we can reconfigure
-        # it to be shorter and all in one for loop.
-        for cell in new_ws['8']:
-            new_row = 9
-            value = cell.value
-            if not bool(value):
-                continue
-            elif type(value) == int:
-                coordinate = cell.coordinate
-                for info in clock_in:
-                    date = int(info['date'][-7:-5])
-                    if value == date:
-                        name_cell = coordinate[0] + str(new_row)
-                        new_ws[name_cell] = info['name']
-                        time_cell = name_time_columns[coordinate[0]] + str(new_row)
-                        new_ws[time_cell] = info['clock-out'][0:-2]
-                        new_row += 1
-        for cell in new_ws['43']:
-            new_row = 44
-            value = cell.value
-            if not bool(value):
-                continue
-            elif type(value) == int:
-                coordinate = cell.coordinate
-                for info in clock_out:
-                    date = int(info['date'][-7:-5])
-                    if value == date:
-                        name_cell = coordinate[0] + str(new_row)
-                        new_ws[name_cell] = info['name']
-                        print(info['name'])
-                        time_cell = name_time_columns[coordinate[0]] + str(new_row)
-                        new_ws[time_cell] = info['clock-out'][0:-2]
-                        info['clock-out']
-                        new_row += 1
+        populate_helper(new_ws, '8', clock_in)
+        populate_helper(new_ws, '43', clock_out)
         wb.save(self.excel_template)
