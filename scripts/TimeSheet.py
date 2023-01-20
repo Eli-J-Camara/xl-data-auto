@@ -1,12 +1,12 @@
 from openpyxl import load_workbook
 import datetime
 from populate import get_punch_times
-
+from find_workbook import find
 
 def ws_header():
     # I've changed these dates to match the date range of the csv file. Also make sure that the date format does not
     # change on the csv file.
-    weekly_timesheet = 'apr-weekly-timesheet-dec-5th.xlsx'
+    weekly_timesheet = find()
     source_data_ws = load_workbook(weekly_timesheet)['Sheet']
     date_range = source_data_ws['B2'].value
     from_date = date_range[0:5]
@@ -20,7 +20,7 @@ def ws_header():
     header_date_column = ['A', 'E', 'I', 'M', 'Q']
     header_date_row = ['8', '19', '27', '35', '43']
     header_cells = [[col + row for row in header_date_row] for col in header_date_column]
-    return log_heading, header_cells, header_dates
+    return (log_heading, header_cells, header_dates)
 
 
 def populate_helper(new_ws, row: str, punch_times):
@@ -54,7 +54,7 @@ class TimeSheet:
 
     def create_ws_title(self):
         # """Generates dynamic work sheet title."""
-        weekly_timesheet = 'apr-weekly-timesheet-dec-5th.xlsx'
+        weekly_timesheet = find()
         source_data_ws = load_workbook(weekly_timesheet)['Sheet']
         date_range = source_data_ws['B2'].value
         day = date_range[3:5]
