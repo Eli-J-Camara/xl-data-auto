@@ -11,5 +11,6 @@ if __name__ == '__main__':
                 timeSheet = TimeSheet()
                 timeSheet.generate_work_sheet()
                 timeSheet.populate_data()
+                os.remove('/Users/lije/Desktop/Software-Development/Chaz-Project/auto-ace/Ace Party Rental_2022-06-13_2022-06-17_timesheets.xlsx')
                 break
 

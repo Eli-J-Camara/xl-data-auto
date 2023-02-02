@@ -12,7 +12,6 @@ def ws_header():
     from_date = date_range[0:5]
     to_date = date_range[14:19]
     log_heading = f'Time Reporting Summary ({from_date} - {to_date}):'
-
     # Header date numberings
     from_range = int(from_date[3:5])
     to_range = int(to_date[3:5])
@@ -83,3 +82,4 @@ class TimeSheet:
         populate_helper(new_ws, '8', clock_in)
         populate_helper(new_ws, '43', clock_out)
         wb.save(self.excel_template)
+
